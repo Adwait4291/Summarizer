@@ -1,0 +1,12 @@
+transformers>=4.30.0
+datasets>=2.10.0
+torch>=1.13.0
+scikit-learn>=1.0
+peft>=0.4.0
+accelerate>=0.20.0
+evaluate>=0.4.0     # For ROUGE metric
+rouge_score>=0.1.2  # Dependency for evaluate's ROUGE
+nltk>=3.6           # Dependency for ROUGE tokenization
+tensorboard         # Optional for logging
+# pandas >= 1.3.0   # Optional for data handling
+protobuf            # Often needed by evaluate/datasets
